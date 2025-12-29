@@ -1,0 +1,88 @@
+# Python virtual environment
+venv/
+env/
+ENV/
+.venv
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Data directories
+data/raw/
+data/processed/
+
+# Draft/experimental figures
+figures_draft/
+figures_1/
+
+# Model files (optional - uncomment if you don't want to track models)
+# models/*.pkl
+# models/*.pth
+
+# LaTeX build files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.fdb_latexmk
+*.fls
+*.blg
+*.bbl
+*.bcf
+*.run.xml
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Unit test / coverage
+htmlcov/
+.tox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# OS files
+Thumbs.db
+.DS_Store
